@@ -9,7 +9,7 @@ module.exports = function(app) {
     {
       memberIds: [String],
       charIds: [String],
-      messages: [String],
+      messages: [{name: String, text: String}],
       partyName: {
         type: String,
         required: true
